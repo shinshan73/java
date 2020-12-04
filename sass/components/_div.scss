@@ -1,0 +1,48 @@
+.column {
+    display: flex;
+    flex-direction: column;
+
+    &--center {
+        @extend .column;
+        align-items: center;
+    }
+
+    &--moitie {
+        @extend .column;
+        @extend .column--center;
+        background-image: url('../assets/img/background-we-are.png');
+        width: 50%;
+    }
+}
+
+.offre{
+    padding-left: 250px;
+    padding-top: 100px;
+}
+
+.contain{
+    margin-bottom: 100px;
+
+}
+
+.images{
+    background-color: $white;
+    border-radius: 25px;
+    width: 350px;
+    height: 380px;
+    margin-left: 250px;
+    margin-top: 100px;
+}
+
+.premiere-ligne{
+    display: flex;
+    background-image: url('../assets/img/background-service.png');
+}
+
+.colonne{
+    margin-left: 150px;
+}
+
+.logo-multi{
+    margin-left: 180px;
+}

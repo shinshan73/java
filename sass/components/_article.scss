@@ -1,0 +1,15 @@
+.articleFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+    &--column {
+        @extend .articleFlex;
+        flex-direction: column;
+    }
+}
+
+.center-center{
+    background-color: $purple;
+}

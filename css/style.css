@@ -1,0 +1,525 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  li,
+  ul {
+    list-style: none;
+  }
+  
+  p,
+  button {
+    cursor: pointer;
+  }
+  
+  body {
+    background-color: #F6F6F9;
+    
+  }
+  
+  a {
+    padding: 10px 30px;
+    background: #6156F9;
+    color: white;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 20px;
+    width: 200px;
+  }
+  
+  .column, .column--moitie, .column--center {
+    display: flex;
+    flex-direction: column;
+  }
+  .column--center, .column--moitie {
+    align-items: center;
+  }
+  .column--moitie {
+    background-image: url('../assets/img/background-we-are.png');
+    width: 50%;
+  }
+  
+ 
+  .articleFlex, .articleFlex--column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .articleFlex--column {
+    flex-direction: column;
+  }
+    
+.telephone{
+    padding-left: 200px;
+}
+
+.social {
+    font-size: 50px;
+    font-family: Poppins;
+    font-style: regular;
+}
+
+.business{
+    font-size: 74px;
+    font-family: Poppins;
+    font-style: bold;
+}
+
+.performance{
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: light;
+}
+
+.a1 {
+    font-family: Poppins;
+    font-style: Medium;
+    font-size: 16px;
+}
+
+h3{
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: semiBold;
+    padding-right: 200px;
+}
+
+.column--moitie p {
+    font-family: Poppins;
+    font-style: Light;
+    font-size: 16px;
+}
+
+.biography{
+    font-family: Lobster;
+    font-size: 20px;
+    font-style: Regular;
+    color: #7E76F9;
+    padding-right: 420px;
+}
+
+.a2{
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: SemiBold;
+    margin-right: 350px;
+    margin-top: 50px;
+}
+
+nav{
+    display: flex;
+}
+
+h1{
+    font-family: Dosis;
+    font-size: 40px;
+    font-style: bold;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.logo{
+    padding-left: 250px;
+}
+
+ul{
+    display: flex;
+    position: absolute;
+    right: 350px;
+    top: 30px;
+}
+
+li{
+    margin: 25px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-size: medium;
+}
+
+.services{
+    font-family: Lato;
+    font-size: 25px;
+    font-style: Regular;
+    color: #7E76F9;
+}
+
+h4{
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: SemiBold;
+}
+
+.offre{
+    padding-left: 250px;
+    padding-top: 100px;
+}
+
+.contain{
+    margin-bottom: 100px;
+
+}
+
+.contain-titre{
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: SemiBold;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+.contain-soustitre{
+    font-family: Lato;
+    font-size: 15px;
+    font-size: Regular;
+    padding-top: 25px;
+    padding-bottom: 35px;
+    padding-left: 20px;
+
+}
+
+.see-more{
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: Medium;
+    margin-left: 190px;
+
+}
+
+.images{
+    background-color: white;
+    border-radius: 25px;
+    width: 350px;
+    height: 380px;
+    margin-left: 250px;
+    margin-top: 100px;
+}
+
+.image{
+   padding-left: 120px;
+   padding-top: 25px;
+}
+
+.premiere-ligne{
+    display: flex;
+    background-image: url('../assets/img/background-service.png');
+}
+
+.pricing{
+    font-family: Lobster;
+    font-size: 20px;
+    font-style: regular;
+    text-align: center;
+    color: #7E76F9;
+    padding-top: 150px;
+}
+
+h5{
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: SemiBold;
+    text-align: center;
+}
+
+.center-center{
+    background-color: #AA81E8;
+    width: 130%;
+}
+
+.package{
+    font-family: Lobster;
+    font-size: 28px;
+    font-style: regular;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.dollar{
+    font-family: Poppins;
+    font-style: SemiBold;
+    font-size: 30px;
+    color: #1000FF;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.see-details{
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: medium;
+    margin-left: 100px;
+}
+
+.newsletter{
+    font-family: Lobster;
+    font-size: 20px;
+    font-style: regular;
+    color: #7E76F9;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.news{
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: regular;
+    text-align: center;
+}
+
+.special{
+    font-style: bold;
+}
+
+form {
+    margin-left: 650px;
+    padding-top: 30px;
+}
+
+#email{
+    width: 400px;
+    height: 50px;
+    border: none;
+}
+
+button{
+    padding: 20px 30px;
+    background: #6156F9;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 20px;
+    width: 200px;
+    border: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: medium;
+    margin-left: 25px;
+}
+
+footer{
+    display: flex;
+    background-image: url('../assets/img/footer.png');
+    background-repeat: no-repeat;
+    height: 500px;
+    padding-top: 100px;
+
+}
+
+
+h6{
+    font-family: Dosis;
+    font-size: 50px;
+    font-style: ExtraBold;
+    margin-left: 250px;
+    padding-top: 100px;
+    color: white;
+}
+
+.stay{
+    font-family: Poppins;
+    font-size: 31px;
+    font-style: medium;
+    margin-left: 200px;
+    color: white;
+}
+
+.logo-multi{
+    margin-left: 180px;
+}
+
+.multi{
+    
+    margin: 20px;
+}
+
+.text-footer{
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: Regular;
+    padding-top: 10px;
+    color: white;
+}
+
+.tittle-footer{
+    font-size: 20px;
+    font-family: Poppins;
+    font-style: medium;
+    padding-bottom: 20px;
+    padding-top: 110px;
+    color: white;
+}
+
+.colonne{
+    margin-left: 150px;
+}
+
+/* format Ipad */
+
+@media screen and (max-width:770px) {
+
+    
+    ul{     
+    position: absolute;
+    right: -1000px;
+    }
+
+    li{
+        font-size: 40px;
+    }
+
+    .telephone{
+        margin-left: 1700px;
+    }
+
+    .column{
+        position: absolute;
+        right: -100px;
+    }
+
+    .column--moitie{
+        margin-left: 1900px;
+        margin-top: 100px;
+    }
+
+    .biography, .a2 {
+        margin-left: 200px;
+    }
+
+    h3 {
+        font-size: 60px;
+    }
+
+    .column--moitie p , .a2{
+        font-size: 30px;
+    }
+
+    .we-are{
+        position: absolute;
+        right: -100px;
+        top: 1500px;
+    }
+
+    .articleFlex{
+        padding-top: 100px;
+    }
+
+    .contain{
+        margin-right: -180px;
+    }
+
+    .images{
+        height: 500px;
+        width: 400px;
+    }
+    
+    .contain-titre{
+        font-size: 30px;
+    }
+
+    .center-center{
+        width: 250%;
+    }
+
+    .pricing, .package{
+        font-size: 50px;
+    }
+
+    .dollar{
+        font-size: 50px;
+    }
+
+    .see-details{
+        font-size: 30px;
+    }
+
+    .newsletter, .news{
+        width: 230%;
+        font-size: 50px;
+    }
+
+    button{
+        width: 250%;
+        font-size: 30px;
+    }
+
+    #email{
+        width: 500px;
+        height: 100px;
+    }
+
+    footer{
+        width: 250%;
+    }
+
+    .text-footer, .tittle-footer{
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width:380px) {
+    .column{
+        margin-left: 100px;
+    }
+
+    .performance{
+        font-size: 30px;
+    }
+
+    .a1{
+        font-size: 40px;
+        margin-left: 50px;
+    }
+    
+    .articleFlex{
+        padding-top: 300px;
+    }
+
+    .we-are{
+        position: absolute;
+        right: -350px;
+        top: 1900px;
+    }
+
+    .contain{
+        margin-right: -150px;
+    }
+
+    .images{
+        margin-left: 150px;
+    }
+
+    .services, h4{
+        font-size: 40px;
+        margin-left: 450px;
+    }
+
+    .center-center{
+        width: 400%;
+    }
+
+    .news, .newsletter{
+        margin-left: 300px;
+    }
+
+    #email{
+        width: 600px;
+        margin-left: -200px;
+    }
+
+    button {
+        width: 300px;
+        margin-left: -50px;
+    }
+
+    footer{
+        width: 400%;
+    }
+}
